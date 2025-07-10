@@ -1,0 +1,103 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling with gradient background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f6f9fc, #e0ecff);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #4b6cb7; /* blue-purple gradient */
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #f0f0f0;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd369;
+}
+
+/* Main content container */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Section headers */
+h2 {
+  color: #4b6cb7;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4b6cb7;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs and text */
+p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+/* Buttons and links */
+a {
+  color: #4b6cb7;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #182848;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #182848;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-top: 5px solid #4b6cb7;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  main {
+    padding: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
